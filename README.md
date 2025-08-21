@@ -1,7 +1,8 @@
-#ShardplexMOTD
+# ShardplexMOTD
+
 A modern and feature-rich MOTD plugin for Minecraft servers. Dynamically manage your server's appearance in the server list with gradients, colors, placeholders, and maintenance mode.
 
-#Key Features:
+Key Features:
 
 Modern MOTD Design: Support for gradient colors, custom version names, and unique left-side text alignment.
 
