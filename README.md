@@ -1,6 +1,6 @@
 # ShardplexMOTD
 
-A modern and feature-rich MOTD plugin for # Velocity servers. Dynamically manage your server's appearance in the server list with gradients, colors, placeholders, and maintenance mode.
+A modern and feature-rich MOTD plugin for **Velocity** proxys. Dynamically manage your server's appearance in the server list with gradients, colors, placeholders, and maintenance mode.
 
 Key Features:
 
@@ -12,4 +12,4 @@ Maintenance Mode: Toggle a maintenance state with a custom icon and MOTD to info
 
 Live Control: Use commands to reload configs, set max players, toggle maintenance, and set fake player counts on the fly.
 
-_ tested on 1.21.8
+_ tested on Velocity 3.4.0 #528 build
