@@ -11,3 +11,5 @@ Dynamic Data: Use placeholders like %players% and %maxplayers% to display real-t
 Maintenance Mode: Toggle a maintenance state with a custom icon and MOTD to inform players.
 
 Live Control: Use commands to reload configs, set max players, toggle maintenance, and set fake player counts on the fly.
+
+_ tested on 1.21.8
