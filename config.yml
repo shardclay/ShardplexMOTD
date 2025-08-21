@@ -1,0 +1,57 @@
+# Plugin by Shardclay
+#
+# To use gradients in your messages, write: <color>your text<color>
+# Supported colors: green, dark_green, red, dark_red, blue, dark_blue, aqua, dark_aqua, purple, dark_purple,
+# yellow, gold, white, gray, dark_gray, orange, black, pink, lime, cyan
+#
+#-----------------------------------------------------------------------------------------
+prefix: '&8[<green>ShardplexMOTD<green>&8] &7'
+#-----------------------------------------------------------------------------------------
+maxplayer: 20
+fakeplayer: false
+maintenance: false
+#-----------------------------------------------------------------------------------------
+favicon:
+  normal: server-icon.png
+  maintenance: wartung-icon.png
+#-----------------------------------------------------------------------------------------
+motd:
+  normal:
+    top:
+    - 'Welcome to my Server'
+    - 'Hello and welcome!'
+    - 'Enjoy your stay on the server!'
+    bottom:
+    - 'Have fun playing!'
+    - 'Good luck!'
+    - 'We hope you enjoy the experience!'
+  maintenance:
+    top: 'Welcome to my Server'
+    bottom: 'We are currently performing maintenance'
+#-----------------------------------------------------------------------------------------
+versionname:
+  left:
+  - 'A nice left text'
+  - 'Version 1.0'
+  - 'Minecraft 1.20'
+  right:
+    normal: '%teamplayers% / %players% / %maxplayers%'
+    maintenance: 'Maintenance'
+  hover:
+  - 'This is the first hover line'
+  - 'This is the second hover line'
+  - 'This is the third hover line'
+  - 'This is the four hover line'
+#-----------------------------------------------------------------------------------------
+messages:
+  maintenance:
+    kick:
+    - '%prefix%'
+    - ''
+    - 'The server is currently under maintenance.'
+    - 'Please try again later.'
+  fullserver:
+  - '%prefix%'
+  - ''
+  - 'The server is currently full.'
+  - 'Please try again later.'

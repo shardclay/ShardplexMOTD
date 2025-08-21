@@ -1,0 +1,9 @@
+{
+  "id": "shardplexmotd",
+  "name": "ShardplexMOTD",
+  "version": "1.1",
+  "description": "A Velocity MOTD plugin.",
+  "authors": ["Shardclay"],
+  "dependencies": [],
+  "main": "com.shardclay.shardplexmotd.ShardplexMOTD"
+}

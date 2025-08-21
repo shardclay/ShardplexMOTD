@@ -1,0 +1,60 @@
+# Plugin by Shardclay for Shardplex with Gemini and Love
+#
+# Formatting:
+# Colors: <RRGGBB>Text<RRGGBB>
+# Gradients: <#RRGGBB>Text<#BBGGRR>
+# Styles: <bold>Text</bold>, <italic>, <underlined>, <strikethrough>, <obfuscated>
+#-----------------------------------------------------------------------------------------
+prefix: '[ShardplexMOTD] '
+#-----------------------------------------------------------------------------------------
+maxplayer: 20
+fakeplayer: false
+maintenance: false
+#-----------------------------------------------------------------------------------------
+favicon:
+  normal: server-icon.png
+  maintenance: maintenance-icon.png
+#-----------------------------------------------------------------------------------------
+motd:
+  normal:
+    top:
+    - 'Welcome to my Server'
+    - 'Hello and welcome!'
+    - 'Enjoy your stay on the server!'
+    bottom:
+    - 'Have fun playing!'
+    - 'Good luck!'
+    - 'We hope you enjoy the experience!'
+  maintenance:
+    top: 'Welcome to my Server'
+    bottom: 'We are currently performing maintenance'
+#-----------------------------------------------------------------------------------------
+# Formatting:
+# Colors: all lagacy only (&c)
+# Styles: all lagacy only (&l)
+versionname:
+  left:
+  - 'A nice left text'
+  - 'Version 1.0'
+  - 'Minecraft 1.20'
+  right:
+    normal: '%players% / %maxplayers%'
+    maintenance: 'Maintenance'
+  hover:
+  - 'This is the first hover line'
+  - 'This is the second hover line'
+  - 'This is the third hover line'
+  - 'This is the four hover line'
+#-----------------------------------------------------------------------------------------
+messages:
+  maintenance:
+    kick:
+    - '%prefix%'
+    - ''
+    - 'The server is currently under maintenance.'
+    - 'Please try again later.'
+  fullserver:
+  - '%prefix%'
+  - ''
+  - 'The server is currently full.'
+  - 'Please try again later.'
